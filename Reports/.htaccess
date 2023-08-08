@@ -1,0 +1,10 @@
+RewriteEngine on
+
+RewriteRule ^emrpregistration$ /abbchmprm/Reports/modules/reg/reg_controller.php?friendlyurl=$1&%{QUERY_STRING}
+RewriteRule ^emrplogin$ /abbchmprm/Reports/modules/auth/auth_controller.php?friendlyurl=$1&%{QUERY_STRING}
+RewriteRule ^prmemrphome$  /abbchmprm/Reports/modules/prmhome/prmhome_controller.php?friendlyurl=$1&%{QUERY_STRING}
+RewriteRule ^prmemrpreports$  /abbchmprm/Reports/modules/prmreports/prmreports_controller.php?friendlyurl=$1&%{QUERY_STRING}
+RewriteRule ^prmemrpcharts$  /abbchmprm/Reports/modules/prmcharts/prmcharts_controller.php?friendlyurl=$1&%{QUERY_STRING}
+RewriteRule ^chmemrphome$  /abbchmprm/Reports/modules/chmhome/chmhome_controller.php?friendlyurl=$1&%{QUERY_STRING}
+RewriteRule ^chmemrpreports$  /abbchmprm/Reports/modules/chmreports/chmreports_controller.php?friendlyurl=$1&%{QUERY_STRING}
+RewriteRule ^chmemrpcharts$  /abbchmprm/Reports/modules/chmcharts/chmcharts_controller.php?friendlyurl=$1&%{QUERY_STRING}

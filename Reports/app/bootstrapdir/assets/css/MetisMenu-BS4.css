@@ -1,0 +1,36 @@
+.metismenu > li > a {
+  display:block;
+  padding:5px;
+  background:#333;
+  color:#fff;
+  text-decoration:none;
+}
+
+.metismenu > li > ul {
+  background:#aaa;
+}
+
+.metismenu > li > ul > li > a {
+  color:#111;
+  display:inline;
+  padding:5px 5px;
+  background:#aaa;
+}
+
+.metismenu > li > ul > li:hover > a {
+  color:#aaa;
+  text-decoration:none;
+  background:#555;
+}
+
+.metismenu > li > a {
+  display:block;
+  padding:5px;
+  background:#333;
+  color:#fff;
+  text-decoration:none;
+}
+
+
+
+
