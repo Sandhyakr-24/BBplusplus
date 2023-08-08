@@ -1,0 +1,32 @@
+
+HEADERS:
+Array
+(
+    [0] => Content-type: application/json
+    [1] => Accept: application/json
+    [2] => Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJmZjMwNWQ1NDg1YjQzNDFiZGEyZmViNmI5ZTU0NjBmYSJ9.O1z7wjXtXPweXL18aEuNwJxglRVrADTC-1o3Mp5GQQY
+)
+
+JSON Object:
+
+{"eid":"OE_INTERACT","ets":"1455031059061","ver":"3.0","mid":"371183aa-a981-47fb-887b-27de0e071eb4","actor":{"id":"baf9db76d664fbdc8ba0c270f952d081","type":"ContentSession"},"context":{"channel":"in.ekstep","pdata":{"id":"in.ekstep"},"env":""},"edata":{"type":"TOUCH","id":"DEVICE_BACK_BTN"}}
+
+RESPONSE FROM EkSTEP:
+
+HTTP/1.1 200 OK
+Server: nginx/1.4.6 (Ubuntu)
+Date: Fri, 08 Dec 2017 05:35:16 GMT
+Content-Type: application/json
+Content-Length: 190
+Connection: keep-alive
+Via: kong/0.9.3
+X-Kong-Proxy-Latency: 0
+X-Kong-Upstream-Latency: 4
+X-RateLimit-Limit-hour: 1000
+X-RateLimit-Remaining-hour: 995
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: GET, OPTIONS, PATCH, POST
+Access-Control-Allow-Headers: Access-Control-Allow-Origin, Authorization, Content-Type, user-id
+
+{"id":"ekstep.telemetry","ver":"1.0","ts":"2017-12-08T05:35:16+00:00","params":{"resmsgid":"b0ac4ed6f59a2605b8c1fc8870359c572f33360e","msgid":"","status":"successful","err":"","errmsg":""}}
+
