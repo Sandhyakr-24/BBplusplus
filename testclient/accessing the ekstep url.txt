@@ -1,0 +1,2 @@
+
+https://qa.ekstep.in/api/v1/telemetry?json={%22id%22:%22ekstep.telemetry%22,%22ver%22:%221.0%22,%22ts%22::%222017-11-25T00:00:00%22}

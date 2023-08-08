@@ -1,0 +1,6 @@
+
+Cut and paste the below line on the browser to access the service API for testing
+(Note: giving json parameters like this directly through URL on browser will work only if _GET[json] is used in the service api. 
+Will not work if file_get_contents() function is used. Use testclient in that case.)
+
+http://localhost/abs/api/register.php?json={"name":"suresh","phone":"1234567890","age":"9","grade":"5th Grade","schooltype":"0","geo":"1111,2222","language":"KANNADA"}
