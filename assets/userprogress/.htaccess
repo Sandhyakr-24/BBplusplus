@@ -1,0 +1,8 @@
+RewriteEngine on
+
+php_flag display_errors 1
+
+RewriteRule ^getchild$ /abbchmprm/assets/userprogress/api/getchild.php?friendlyurl=$1&%{QUERY_STRING}
+RewriteRule ^userprogress$ /abbchmprm/assets/userprogress/api/getuserprogress.php?friendlyurl=$1&%{QUERY_STRING}
+
+
