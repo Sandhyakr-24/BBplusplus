@@ -1,0 +1,70 @@
+curl -X POST \
+  https://qa.ekstep.in/api/v1/telemetry \
+  -H 'authorization: Basic ZWtzdGVwOnMzY3IzdDM=' \
+  -H 'cache-control: no-cache' \
+  -H 'content-type: application/json' \
+  -H 'postman-token: eeabd8ce-730d-06b0-1e6f-f34c4b352b78' \
+  -d '{
+  "id": "ekstep.telemetry",
+  "ver": "2.0",
+  "ets": 1455031059061,
+  "params": {
+    "did": "e97987fa-c056-411d-hfkf-c23496093ujd",
+    "key": "57c176ca-1977-4785-af9e-d59d37214b0b",
+    "msgid": "7x87bc51-afbg-4344-88bc-a2a90df5fd76"
+  },
+  "events": [
+    {
+      "cdata": [
+        {
+          "id": "baf9db76d664fbdc8ba0c270f952d081",
+          "type": "ContentSession"
+        }
+      ],
+      "channel": "in.ekstep",
+      "did": "8b22bcb455329fc78d0d7f796b201b4f29acd16c",
+      "edata": {
+        "eks": {
+          "extype": "",
+          "id": "DEVICE_BACK_BTN",
+          "pos": [],
+          "stageid": "1e104656-786d-480a-a2be-750183de9a11",
+          "subtype": "",
+          "tid": "",
+          "type": "TOUCH",
+          "uri": "",
+          "values": []
+        }
+      },
+      "eid": "OE_INTERACT",
+      "etags": {
+        "app": [],
+        "dims": [],
+        "partner": []
+      },
+      "ets": 1511925124983,
+      "gdata": {
+        "id": "do_31225712718263091212679",
+        "ver": "4.0"
+      },
+      "mid": "371183aa-a981-47fb-887b-27de0e071eb4",
+      "pdata": {
+        "id": "in.ekstep",
+        "ver": "1.0"
+      },
+      "sid": "47c46286-1d11-4af3-bbce-f5b45fecf497",
+      "uid": "98266751-f3b1-4f99-80a7-4f6b30b71aae",
+      "ver": "2.1",
+      "@version": "1",
+      "@timestamp": "2017-11-29T19:02:20.656Z",
+      "uuid": "3f38173d-1204-4ae6-8365-5bf0d720ad9648",
+      "key": "98266751-f3b1-4f99-80a7-4f6b30b71aae",
+      "type": "events",
+      "ts": "2017-11-29T03:12:04.983+0000",
+      "flags": {
+        "tv_processed": true,
+        "dd_processed": true
+      }
+    }
+  ]
+}'

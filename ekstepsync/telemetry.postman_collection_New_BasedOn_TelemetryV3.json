@@ -1,0 +1,57 @@
+{
+	"variables": [],
+	"info": {
+		"name": "telemetry",
+		"_postman_id": "4307a478-0a81-3110-40a8-4722585ca2d3",
+		"description": "",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "telemetry",
+			"request": {
+				"url": "",
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": "telemetry call to prod"
+			},
+			"response": []
+		},
+		{
+			"name": "telemetry",
+			"request": {
+				"url": "https://qa.ekstep.in/api/data/v3/telemetry",
+				"method": "POST",
+				"header": [
+					{
+						"key": "authorization",
+						"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJmZjMwNWQ1NDg1YjQzNDFiZGEyZmViNmI5ZTU0NjBmYSJ9.O1z7wjXtXPweXL18aEuNwJxglRVrADTC-1o3Mp5GQQY",
+						"description": ""
+					},
+					{
+						"key": "cache-control",
+						"value": "no-cache",
+						"description": ""
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"description": ""
+					},
+					{
+						"key": "postman-token",
+						"value": "60639494-a6ee-97da-3a09-08a2ff0e4d1e",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"id\":\"ekstep.telemetry\",\"ver\":\"2.0\",\"ets\":1455031059061,\"params\":{\"did\":\"e97987fa-c056-411d-hfkf-c23496093ujd\",\"key\":\"57c176ca-1977-4785-af9e-d59d37214b0b\",\"msgid\":\"7x87bc51-afbg-4344-88bc-a2a90df5fd76\"},\"events\":[{\"did\":\"23786730-eb4a-490b-82be-ac8455150381\",\"mid\":\"43288930-e54a-230b-b56e-876gnm8712ok\",\"edata\":{\"eks\":{\"error\":\"NOT_EXISTS\",\"errorMessages\":[\"There is no current user\"],\"message\":\"\",\"method\":\"getCurrentUser\",\"result\":{},\"service\":\"org.ekstep.genieservices.aidls.services.IUserProfileService\",\"status\":\"failed\"}},\"eid\":\"GE_SERVICE_API_CALL\",\"gdata\":{\"id\":\"genie.android\",\"ver\":\"2.0\"},\"pdata\":{\"id\":\"genie\",\"ver\":\"2.0\"},\"sid\":\"d65fa30a-edce-4dc6-90fd-cd440616b1a3\",\"ets\":1454064092546,\"uid\":\"7c622762588a0e5cc786ad0a143156f9fd38eea3\",\"ver\":\"2.2\",\"channel\":\"in.ekstep\",\"cdata\":[{\"id\":\"correlationid\",\"type\":\"correlationtype\"}]}]}"
+				},
+				"description": "telemetry call to prod"
+			},
+			"response": []
+		}
+	]
+}
